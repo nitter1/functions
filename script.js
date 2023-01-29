@@ -47,7 +47,7 @@ console.log(multiplica(4))
 
 //6 - crie uma função que  verifique se uma  variável é true ou false
 function comparar (num1, num2) {
-    if (num1 == num2) {
+    if (num1 === num2) {
         console.log(`Os valores ${num1} e ${num2} são verdadeiros! It's TRUE!!!`)
     } else {
         console.log(`Os valores ${num1} e ${num2} não são verdadeiros! It's FALSE`)
