@@ -29,11 +29,11 @@ myProfile("Daniel Roger Nitter", "21", "Rock N' Roll")
 //--------------------------------------------------------------------------------------------------------------
 
 //4 - crie uma função que receba um filme, uma música (parâmetros) e exiba no console
-function myMovie (filme) {
-    console.log(`O filme que iremos ver hoje será: ${filme}`)
+function myMovie (filme, music) {
+    console.log(`O filme que iremos ver hoje será: ${filme}, a música que escutaremos será ${music}`)
 }
 
-myMovie("Shrek 2")
+myMovie("Shrek 2", "Livin' La Vida Loca - Eddie Murphy & Antonio Banderas")
 
 //--------------------------------------------------------------------------------------------------------------
 
